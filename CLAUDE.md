@@ -88,7 +88,7 @@ Topics are ordered by dependency. Do not skip ahead.
 Track completed topics and scripts here as the project grows.
 
 ### Completed topics
-- None yet
+- Topic 1 — NumPy & image arrays
 
 ### Completed projects
 - None yet
@@ -97,7 +97,7 @@ Track completed topics and scripts here as the project grows.
 
 | File | Topic | Description |
 |------|-------|-------------|
-| — | — | — |
+| `01_numpy_basics.ipynb` | Topic 1 — NumPy & image arrays | Array creation, dtype, indexing, slicing, copy vs view, masking, basic math, drawing with NumPy |
 
 ## Key reminders
 
