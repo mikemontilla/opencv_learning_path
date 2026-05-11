@@ -89,6 +89,7 @@ Track completed topics and scripts here as the project grows.
 
 ### Completed topics
 - Topic 1 — NumPy & image arrays
+- Topic 2 — Read / display / save
 
 ### Completed projects
 - None yet
@@ -98,6 +99,7 @@ Track completed topics and scripts here as the project grows.
 | File | Topic | Description |
 |------|-------|-------------|
 | `01_numpy_basics.ipynb` | Topic 1 — NumPy & image arrays | Array creation, dtype, indexing, slicing, copy vs view, masking, basic math, drawing with NumPy |
+| `02_read_write_display.ipynb` | Topic 2 — Read / display / save | imread, imwrite (jpg/png/bmp), IMREAD_GRAYSCALE, cvtColor, channel swap, resize, crop, convertScaleAbs |
 
 ## Key reminders
 
