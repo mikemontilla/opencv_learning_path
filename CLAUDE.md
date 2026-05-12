@@ -91,6 +91,7 @@ Track completed topics and scripts here as the project grows.
 - Topic 1 — NumPy & image arrays
 - Topic 2 — Read / display / save
 - Topic 3 — Coordinates & ROI
+- Topic 4 — Color spaces
 - Topic 6 — Drawing & annotation
 
 ### Completed projects
@@ -103,6 +104,7 @@ Track completed topics and scripts here as the project grows.
 | `01_numpy_basics.ipynb` | Topic 1 — NumPy & image arrays | Array creation, dtype, indexing, slicing, copy vs view, masking, basic math, drawing with NumPy |
 | `02_read_write_display.ipynb` | Topic 2 — Read / display / save | imread, imwrite (jpg/png/bmp), IMREAD_GRAYSCALE, cvtColor, channel swap, resize, crop, convertScaleAbs |
 | `03_roi_and_coordinates.ipynb` | Topics 3 & 6 — Coordinates/ROI & Drawing | Pixel modification, ROI extraction, region copy/paste, rectangle, circle, line, putText |
+| `04_color_spaces.ipynb` | Topic 4 — Color spaces | BGR/RGB/GRAY/HSV conversions, cv2.split, inRange color detection, bitwise_and masking, contours preview |
 
 ## Key reminders
 
