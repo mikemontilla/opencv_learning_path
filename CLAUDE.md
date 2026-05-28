@@ -94,6 +94,7 @@ Track completed topics and scripts here as the project grows.
 - Topic 4 — Color spaces
 - Topic 5 — Basic image operations
 - Topic 6 — Drawing & annotation
+- Topic 7 — Thresholding & masks
 
 ### Completed projects
 - None yet
@@ -107,6 +108,7 @@ Track completed topics and scripts here as the project grows.
 | `03_roi_and_coordinates.ipynb` | Topics 3 & 6 — Coordinates/ROI & Drawing | Pixel modification, ROI extraction, region copy/paste, rectangle, circle, line, putText |
 | `04_color_spaces.ipynb` | Topic 4 — Color spaces | BGR/RGB/GRAY/HSV conversions, cv2.split, inRange color detection, bitwise_and masking, contours preview |
 | `05_basic_image_operations.ipynb` | Topic 5 — Basic image operations | resize, rotate, flip, translate, brightness, contrast, warpAffine, getRotationMatrix2D, convertScaleAbs |
+| `06_thresholds_and_masking.ipynb` | Topic 7 — Thresholding & masks | binary/inverted threshold, NumPy vs cv2 comparison, adaptive (Gaussian), Otsu, blur+threshold pipeline, bitwise_and masking |
 
 ## Key reminders
 
