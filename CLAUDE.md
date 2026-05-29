@@ -96,6 +96,7 @@ Track completed topics and scripts here as the project grows.
 - Topic 6 — Drawing & annotation
 - Topic 7 — Thresholding & masks
 - Topic 8 — Filtering & smoothing
+- Topic 9 — Edge detection
 
 ### Completed projects
 - None yet
@@ -111,6 +112,7 @@ Track completed topics and scripts here as the project grows.
 | `05_basic_image_operations.ipynb` | Topic 5 — Basic image operations | resize, rotate, flip, translate, brightness, contrast, warpAffine, getRotationMatrix2D, convertScaleAbs |
 | `06_thresholds_and_masking.ipynb` | Topic 7 — Thresholding & masks | binary/inverted threshold, NumPy vs cv2 comparison, adaptive (Gaussian), Otsu, blur+threshold pipeline, bitwise_and masking |
 | `07_filtering_and_smoothing.ipynb` | Topic 8 — Filtering & smoothing | mean blur, Gaussian blur, median blur, bilateral filter |
+| `08_edge_detection.ipynb` | Topic 9 — Edge detection | Sobel, Laplacian, Canny, blur+Canny pipeline, ipywidgets interactive tuner, edge overlay |
 
 ## Key reminders
 
