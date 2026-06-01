@@ -97,6 +97,7 @@ Track completed topics and scripts here as the project grows.
 - Topic 7 — Thresholding & masks
 - Topic 8 — Filtering & smoothing
 - Topic 9 — Edge detection
+- Topic 10 — Morphological ops
 
 ### Completed projects
 - None yet
@@ -113,6 +114,7 @@ Track completed topics and scripts here as the project grows.
 | `06_thresholds_and_masking.ipynb` | Topic 7 — Thresholding & masks | binary/inverted threshold, NumPy vs cv2 comparison, adaptive (Gaussian), Otsu, blur+threshold pipeline, bitwise_and masking |
 | `07_filtering_and_smoothing.ipynb` | Topic 8 — Filtering & smoothing | mean blur, Gaussian blur, median blur, bilateral filter |
 | `08_edge_detection.ipynb` | Topic 9 — Edge detection | Sobel, Laplacian, Canny, blur+Canny pipeline, ipywidgets interactive tuner, edge overlay |
+| `09_morphological_ops.ipynb` | Topic 10 — Morphological ops | erosion, dilation, opening, closing, kernel shapes (rect, ellipse, cross) |
 
 ## Key reminders
 
