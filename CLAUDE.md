@@ -98,6 +98,7 @@ Track completed topics and scripts here as the project grows.
 - Topic 8 — Filtering & smoothing
 - Topic 9 — Edge detection
 - Topic 10 — Morphological ops
+- Topic 11 — Contours & shapes
 
 ### Completed projects
 - None yet
@@ -115,6 +116,7 @@ Track completed topics and scripts here as the project grows.
 | `07_filtering_and_smoothing.ipynb` | Topic 8 — Filtering & smoothing | mean blur, Gaussian blur, median blur, bilateral filter |
 | `08_edge_detection.ipynb` | Topic 9 — Edge detection | Sobel, Laplacian, Canny, blur+Canny pipeline, ipywidgets interactive tuner, edge overlay |
 | `09_morphological_ops.ipynb` | Topic 10 — Morphological ops | erosion, dilation, opening, closing, kernel shapes (rect, ellipse, cross) |
+| `10_contours_shape_analysis.ipynb` | Topic 11 — Contours & shapes | findContours, drawContours, area, perimeter, boundingRect, moments, centroid, filter by area |
 
 ## Key reminders
 
