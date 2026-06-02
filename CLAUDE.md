@@ -100,6 +100,8 @@ Track completed topics and scripts here as the project grows.
 - Topic 10 — Morphological ops
 - Topic 11 — Contours & shapes
 - Topic 12 — Histograms
+- Topic 13 — Geometric transforms (skipped for now)
+- Topic 15 — Camera calibration (skipped for now)
 
 ### Completed projects
 - None yet
