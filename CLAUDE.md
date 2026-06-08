@@ -103,6 +103,7 @@ Track completed topics and scripts here as the project grows.
 - Topic 13 — Geometric transforms (skipped for now)
 - Topic 14 — Feature detection & matching
 - Topic 15 — Camera calibration (skipped for now)
+- Topic 16 — Video basics
 
 ### Completed projects
 - None yet
@@ -123,6 +124,7 @@ Track completed topics and scripts here as the project grows.
 | `10_contours_shape_analysis.ipynb` | Topic 11 — Contours & shapes | findContours, drawContours, area, perimeter, boundingRect, moments, centroid, filter by area |
 | `11_histograms.ipynb` | Topic 12 — Histograms | brightness distribution, equalization, CLAHE, color histograms, ROI histograms, LAB color CLAHE |
 | `12_feature_detection_and_matching.ipynb` | Topic 14 — Feature detection | keypoints, descriptors, ORB, SIFT, BFMatcher, knnMatch, ratio test, homography object detection |
+| `13_video_basics.ipynb` | Topic 16 — Video basics | VideoCapture, VideoWriter, frame loop, FPS measurement, FOURCC codec, saving processed video |
 
 ## Key reminders
 
