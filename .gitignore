@@ -1,4 +1,6 @@
 images/
 outputs/
+models/
+videos/
 *checkpoint*
 .pylance-env/
