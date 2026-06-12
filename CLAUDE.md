@@ -104,6 +104,8 @@ Track completed topics and scripts here as the project grows.
 - Topic 14 — Feature detection & matching
 - Topic 15 — Camera calibration (skipped for now)
 - Topic 16 — Video basics
+- Topic 17 — Object tracking (skipped for now)
+- Topic 18 — Classical detection (Hough lines/circles, contour-based shape classification studied; template matching and cascades reviewed conceptually only)
 
 ### Completed projects
 - None yet
@@ -125,6 +127,7 @@ Track completed topics and scripts here as the project grows.
 | `11_histograms.ipynb` | Topic 12 — Histograms | brightness distribution, equalization, CLAHE, color histograms, ROI histograms, LAB color CLAHE |
 | `12_feature_detection_and_matching.ipynb` | Topic 14 — Feature detection | keypoints, descriptors, ORB, SIFT, BFMatcher, knnMatch, ratio test, homography object detection |
 | `13_video_basics.ipynb` | Topic 16 — Video basics | VideoCapture, VideoWriter, frame loop, FPS measurement, FOURCC codec, saving processed video |
+| `14_classical_detection.ipynb` | Topic 18 — Classical detection | HoughLinesP, HoughCircles, contour-based shape classification with approxPolyDP, matchTemplate/minMaxLoc and CascadeClassifier/detectMultiScale reviewed conceptually |
 
 ## Key reminders
 
