@@ -106,6 +106,7 @@ Track completed topics and scripts here as the project grows.
 - Topic 16 — Video basics
 - Topic 17 — Object tracking (skipped for now)
 - Topic 18 — Classical detection (Hough lines/circles, contour-based shape classification studied; template matching and cascades reviewed conceptually only)
+- Topic 19 — OpenCV DNN (blobFromImage, classification with MobileNetV2, object detection with YOLOv4 ONNX including anchor decoding and NMS, face detection with ResNet-SSD Caffe model, video inference, backend/target testing)
 
 ### Completed projects
 - None yet
@@ -128,6 +129,7 @@ Track completed topics and scripts here as the project grows.
 | `12_feature_detection_and_matching.ipynb` | Topic 14 — Feature detection | keypoints, descriptors, ORB, SIFT, BFMatcher, knnMatch, ratio test, homography object detection |
 | `13_video_basics.ipynb` | Topic 16 — Video basics | VideoCapture, VideoWriter, frame loop, FPS measurement, FOURCC codec, saving processed video |
 | `14_classical_detection.ipynb` | Topic 18 — Classical detection | HoughLinesP, HoughCircles, contour-based shape classification with approxPolyDP, matchTemplate/minMaxLoc and CascadeClassifier/detectMultiScale reviewed conceptually |
+| `15_dnn.ipynb` | Topic 19 — OpenCV DNN | blobFromImage, MobileNetV2 classification, YOLOv4 detection (NHWC input, anchor decoding, NMS, box rescaling), ResNet-SSD face detection (Caffe), video inference, CUDA backend testing |
 
 ## Key reminders
 
