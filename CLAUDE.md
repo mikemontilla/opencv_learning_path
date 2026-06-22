@@ -107,6 +107,7 @@ Track completed topics and scripts here as the project grows.
 - Topic 17 — Object tracking (skipped for now)
 - Topic 18 — Classical detection (Hough lines/circles, contour-based shape classification studied; template matching and cascades reviewed conceptually only)
 - Topic 19 — OpenCV DNN (blobFromImage, classification with MobileNetV2, object detection with YOLOv4 ONNX including anchor decoding and NMS, face detection with ResNet-SSD Caffe model, video inference, backend/target testing)
+- Topic 20 — Performance optimization (resized vs full-size processing, color vs grayscale cost, ROI vs full image, blur kernel size scaling, algorithm comparison, frame skipping, slow vs fast pipeline, OpenCV build info)
 
 ### Completed projects
 - None yet
@@ -130,6 +131,7 @@ Track completed topics and scripts here as the project grows.
 | `13_video_basics.ipynb` | Topic 16 — Video basics | VideoCapture, VideoWriter, frame loop, FPS measurement, FOURCC codec, saving processed video |
 | `14_classical_detection.ipynb` | Topic 18 — Classical detection | HoughLinesP, HoughCircles, contour-based shape classification with approxPolyDP, matchTemplate/minMaxLoc and CascadeClassifier/detectMultiScale reviewed conceptually |
 | `15_dnn.ipynb` | Topic 19 — OpenCV DNN | blobFromImage, MobileNetV2 classification, YOLOv4 detection (NHWC input, anchor decoding, NMS, box rescaling), ResNet-SSD face detection (Caffe), video inference, CUDA backend testing |
+| `16_performance_optimization.ipynb` | Topic 20 — Performance optimization | resized vs full-size timing, color vs grayscale blur cost, ROI vs full image, blur kernel size scaling, blur algorithm comparison, frame skipping in video, slow vs fast pipeline comparison, cv2.getBuildInformation |
 
 ## Key reminders
 
