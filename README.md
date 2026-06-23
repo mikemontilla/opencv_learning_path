@@ -24,7 +24,9 @@ To run notebooks from VS Code instead, connect the Jupyter extension to `http://
 
 ## Models folder (Topic 19 — OpenCV DNN)
 
-The `models/` folder is not tracked in git (model files are large binaries). To run the DNN notebook (`15_dnn.ipynb`), create the folder and download the required files:
+The `models/` folder is not tracked in git (model files are large binaries). To run the DNN notebook (`15_dnn.ipynb`), create the folder and download the required files.
+
+**Windows (PowerShell):**
 
 ```powershell
 New-Item -ItemType Directory -Force models
@@ -34,6 +36,19 @@ Invoke-WebRequest -Uri "https://github.com/onnx/models/raw/main/validated/vision
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/opencv/opencv/master/samples/dnn/face_detector/deploy.prototxt" -OutFile "models/deploy.prototxt"
 Invoke-WebRequest -Uri "https://github.com/opencv/opencv_3rdparty/raw/dnn_samples_face_detector_20170830/res10_300x300_ssd_iter_140000.caffemodel" -OutFile "models/res10_300x300_ssd_iter_140000.caffemodel"
 ```
+
+**Linux / macOS (bash):**
+
+```bash
+mkdir -p models
+curl -L "https://github.com/onnx/models/raw/main/validated/vision/classification/mobilenet/model/mobilenetv2-12.onnx" -o "models/mobilenetv2.onnx"
+curl -L "https://raw.githubusercontent.com/pytorch/hub/master/imagenet_classes.txt" -o "models/imagenet_classes.txt"
+curl -L "https://github.com/onnx/models/raw/main/validated/vision/object_detection_segmentation/yolov4/model/yolov4.onnx" -o "models/yolov4.onnx"
+curl -L "https://raw.githubusercontent.com/opencv/opencv/master/samples/dnn/face_detector/deploy.prototxt" -o "models/deploy.prototxt"
+curl -L "https://github.com/opencv/opencv_3rdparty/raw/dnn_samples_face_detector_20170830/res10_300x300_ssd_iter_140000.caffemodel" -o "models/res10_300x300_ssd_iter_140000.caffemodel"
+```
+
+> The `-L` flag tells `curl` to follow redirects, which the GitHub download URLs rely on. If you prefer `wget`, replace each line with `wget -O "models/<name>" "<url>"`.
 
 - `mobilenetv2.onnx` + `imagenet_classes.txt` — image classification example
 - `yolov4.onnx` (~251 MB) — object detection example (boxes + NMS)
